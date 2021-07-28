@@ -1,3 +1,15 @@
+function clicou(){
+  document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+ // alert("obrigado por clicar");
+
+}
+
+function redirecionar(){
+  //window.open("https://www.youtube.com");
+  window.location.href="https://www.youtube.com";
+}
+
+ 
  //Dicionario
   
   /*var frutas = [{nome:"maça",cor:"vermelho"},{nome:'uva',cor:'roxa'}];
@@ -66,5 +78,4 @@ alert(nome + " tem " + idade + " anos");
        * 
        */
       
-      
-     
+   
